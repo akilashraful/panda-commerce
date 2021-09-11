@@ -14,37 +14,158 @@
 }
 
 
-button{
+#btnshop{
     background-color: rgb(252, 72, 102);
-    padding: 8px 48px 8px 48px;
+    padding: 8px 40px 8px 40px;
     border-color: transparent;
     border-radius: 10px;
-    font-size: 20px;
-    margin-top: 30px;
+    font-size: 18px;
+    margin-top: 20px;
     color: white;
     
 }
 
+#sectitle{
+    margin-bottom: 30px;
+}
+
+
+.cdbtm{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#cartbtn{
+
+    padding: 8px 40px;
+    background-color: rgb(252, 72, 102);
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid rgb(252, 72, 102);
+
+}
+
+#cartbtn:hover{
+    border: 3px solid rgb(252, 72, 102);
+  background-color: transparent;
+  color: rgb(252, 72, 102);
+
+}
+
+.carousel-item{
+    padding: 30px 50px;
+}
+
+
+.pink-bg{
+    background-color: #feeae9;
+    border-radius: 30px;
+}
+
+/* .col-5{
+   background-color: black;
+   border-radius: 30px;
+} */
+
+
+.cat1, .cat2, .cat3{
+    padding: 10px 30px 10px 50px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+h5{
+    font-weight: bold;
+}
+
+.cat1{
+    background: linear-gradient(92.16deg, #0009D6 7.88%, #A615EB 70.43%);
+}
+
+.cat2{
+    background: linear-gradient(92.16deg, #D60067 7.88%, #EB15C9 96.14%);
+}
+
+
+.cat3{
+    background: linear-gradient(92.16deg, #D6C000 7.88%, #DAEB15 70.43%);
+    
+}
 
 
 p{
-    margin-top: 30px;
+    margin-top: 20px;
     line-height: 150%;
+}
+
+.subsmain{
+    background-color: rgb(255, 212, 219);
+    /* padding: 40px; */
+   /* display: flex;
+   align-items: center; */
+   
+    
+}
+
+#confld{
+    padding: 80px;
+ background-color: rgb(255, 212, 219);
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#confldcont{
+    display: flex;
+    justify-content: center;
+
+}
+
+.confldcont{
+    margin-bottom: 30px;
+}
+
+
+.inpt1{
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+    border: transparent;
+    
+}
+
+h2{
+    font-weight: bold;
+}
+
+h3{
+    font-weight: bold;
+}
+
+
+footer{
+    padding: 30px;
+    background-color: rgb(252, 72, 102);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-top: 150px;
+
 }
 
 h1{
     font-size: 60px;
     font-weight: bold;
+    line-height: -20%;
     kerning: -7%;
-    color: rgb(252, 72, 102;
+    color: rgb(252, 72, 102);
 }
 
-/* .container{
-    margin-top: 70px !important;
-} */
-
-
-h2{
-    margin-bottom: 50px;
-}
 

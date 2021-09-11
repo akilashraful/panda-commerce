@@ -27,10 +27,10 @@
             <a class="nav-link" href="#">Features</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Products</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+            <a class="nav-link disabled">Cart</a>
           </li>
         </ul>
       </div>
@@ -39,10 +39,10 @@
 
 
 
-  <div class="container color-bg">
+  <div class="container">
     
   <!-- carousel -->
-  <div id="carouselExampleIndicators" class="carousel slide mt-5" data-bs-ride="carousel">
+  <div id="carouselExampleIndicators" class="carousel slide pink-bg mt-5" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -55,10 +55,10 @@
 <div class="carousel-inner">
   <div class="carousel-item active" data-bs-interval="2000">
 
-    <div class="row">
+    <div class="row d-flex align-items-center">
 
-      <div class="col-7">
-        <h1>Lorem ipsum dolor <br> sit amet consectetur.</h1>
+      <div class="col-xl-7 col-lg-6 ">
+        <h1>Few new items arrived in store</h1>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, neque eos laborum voluptas alias odio corporis maxime pariatur maiores dignissimos, porro dicta soluta autem dolores? Fugiat labore deleniti id vero eaque officiis omnis molestias hic iste, expedita repellendus nostrum. Dignissimos.</p>
         
 
@@ -67,7 +67,7 @@
     </button>
       
       </div>
-      <div class="col-5">
+      <div class="col-xl-5 col-lg- align-items-start ">
         <img src="Images/banner-images/headphone.png" class="d-block w-100" alt="Images\bags\bag-1.png">
       </div>
     </div>
@@ -78,9 +78,9 @@
 <!-- 2nd slide -->
 <div class="carousel-item" data-bs-interval="2000">
 
-<div class="row">
-<div class="col-7">
-<h1>Lorem ipsum dolor <br> sit amet consectetur.</h1>
+<div class="row d-flex align-items-center">
+<div class="col-xl-7 col-lg-6 ">
+<h1>Lorem ipsum dolor consectetur.</h1>
 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, neque eos laborum voluptas alias odio corporis maxime pariatur maiores dignissimos, porro dicta soluta autem dolores? Fugiat labore deleniti id vero eaque officiis omnis molestias hic iste, expedita repellendus nostrum. Dignissimos.</p>
 
 <button id="btnshop" >
@@ -89,7 +89,7 @@
 
 </div>
 
-<div class="col-5">
+<div class="col-xl-5 col-lg-6 align-items-start ">
 <img src="Images/banner-images/xbox.png" class="d-block w-100" alt="Images\bags\bag-1.png">
   </div>
 </div>
@@ -101,9 +101,9 @@
 <div class="carousel-item" data-bs-interval="2000">
 
 
- <div class="row">
-   <div class="col-7">
-    <h1>Lorem ipsum dolor <br> sit amet consectetur.</h1>
+ <div class="row align-items-center">
+   <div class="col-xl-7 col-lg-6 ">
+    <h1>Few new items arrived in store</h1>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit, neque eos laborum voluptas alias odio corporis maxime pariatur maiores dignissimos, porro dicta soluta autem dolores? Fugiat labore deleniti id vero eaque officiis omnis molestias hic iste, expedita repellendus nostrum. Dignissimos.</p>
     
 <button id="btnshop" >
@@ -113,7 +113,7 @@ Shop Now
    </div>
 
    
- <div class="col-5">
+ <div class="col-xl-5 col-lg-6 align-items-start">
   <img src="Images/banner-images/tv.png" class="d-block w-100" alt="Images\bags\bag-1.png">
 </div>
 </div>
@@ -137,20 +137,66 @@ Shop Now
 
 
 
+<!-- Categories -->
+
+<div class="container mt-5">
+  <div class="row">
+
+    
+    <div class="col-xl-4 col-lg-4 gy-4">
+      <div class="cat1 d-flex justify-content-between align-items-center">
+        <h2>Shoes</h2>
+        <img src="Images/categories/shoes.png" alt="">
+      </div>
+      
+    </div>
+
+    <div class="col-xl-4 col-lg-4 gy-4">
+      <div class="cat2 d-flex justify-content-between align-items-center">
+        <h2>Bag</h2>
+        <img src="Images/categories/bag.png" alt="">
+      </div>
+     
+    </div>
+
+    <div class="col-xl-4 col-lg-4 gy-4">
+      <div class="cat3 d-flex justify-content-between align-items-center">
+        <h2>Watch</h2>
+        <img src="Images/categories/watch.png" alt="">
+      </div>
+      
+    </div>
+
+
+
+
+
+
+
+  </div>
+</div>
+
+
+
+
 <!-- cards -->
 
 
 <div class="container mt-5">
 
-  <h2>School Bags</h2>
+  <h2 id="sectitle">School Bags</h2>
 
-  <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+  <div class="row row-cols-1 row-cols-md-3 g-4">
     <div class="col">
       <div class="card">
         <img src="Images\bags\bag-1.png" class="card-img-top" alt="Images\bags\bag-1.png">
         <div class="card-body">
           <h5 class="card-title">School Bag 2021</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="cdbtm">
+          <h2> $20 </h2>
+        <button id="cartbtn">Add to Cart</button>
         </div>
       </div>
     </div>
@@ -160,6 +206,10 @@ Shop Now
         <div class="card-body">
           <h5 class="card-title">School Bag 2021</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="cdbtm">
+          <h2> $20 </h2>
+        <button id="cartbtn">Add to Cart</button>
         </div>
       </div>
     </div>
@@ -170,14 +220,9 @@ Shop Now
           <h5 class="card-title">School Bag 2021</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
         </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card">
-        <img src="Images\bags\bag-1.png" class="card-img-top" alt="Images\bags\bag-1.png">
-        <div class="card-body">
-          <h5 class="card-title">School Bag 2021</h5>
-          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <div class="cdbtm">
+          <h2> $20 </h2>
+        <button id="cartbtn">Add to Cart</button>
         </div>
       </div>
     </div>
@@ -188,6 +233,10 @@ Shop Now
           <h5 class="card-title">School Bag 2021</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
         </div>
+        <div class="cdbtm">
+          <h2> $20 </h2>
+        <button id="cartbtn">Add to Cart</button>
+        </div>
       </div>
     </div>
     <div class="col">
@@ -196,12 +245,50 @@ Shop Now
         <div class="card-body">
           <h5 class="card-title">School Bag 2021</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="cdbtm">
+          <h2> $20 </h2>
+        <button id="cartbtn">Add to Cart</button>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <img src="Images\bags\bag-1.png" class="card-img-top" alt="Images\bags\bag-1.png">
+        <div class="card-body">
+          <h5 class="card-title">School Bag 2021</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+        <div class="cdbtm">
+          <h2> $20 </h2>
+        <button id="cartbtn">Add to Cart</button>
         </div>
       </div>
     </div>
   </div>
 </div>
 
+
+<!-- subscribe -->
+<div id="confld" class="container-fluid">
+  
+  <div class="subsmain">
+    
+   
+ <div class="confldcont">
+  <h3 id="confldcont" >Let's Stay in Touch</h3>
+  <p id="confldcont" >Get updates on sales, special and more</p>
+ </div>
+   
+      <input class="inpt1" type="text"> 
+      <button id="cartbtn">Subscribe</button>
+  </div>
+</div>
+
+<!-- footer -->
+<footer>
+  Copyrights All right reserved Panda Commerce <year>
+</footer>
 
 <!-- Javascript -->
 
